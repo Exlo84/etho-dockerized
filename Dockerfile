@@ -12,5 +12,5 @@ FROM alpine:latest
 RUN apk add --no-cache ca-certificates
 COPY --from=builder /go-etho/build/bin/geth /usr/local/bin/
 
-EXPOSE 8545 30305 30305/udp
+EXPOSE 80 4001 5001 30305 30305/udp
 ENTRYPOINT ["geth"]
