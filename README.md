@@ -7,4 +7,4 @@ Build docker image:
 
 https://hub.docker.com/r/exlo84/etho-protocol-node
 Docker Pull Command
-```docker pull exlo84/etho-protocol:latest``` 
+```docker pull exlo84/etho-protocol-node``` 
